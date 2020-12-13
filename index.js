@@ -58,6 +58,6 @@ consonants.forEach(consonant => {
 
 [...document.querySelectorAll('.silabo')].forEach(silabo => {
     silabo.addEventListener('click', () => {
-        speak(silabo.textContent, languages.spanish);
+        speak(silabo.textContent+"h", languages.spanish);
     });
 })
